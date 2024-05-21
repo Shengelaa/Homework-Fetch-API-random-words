@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.quote {
+  font-size: 2em;
+  color: #333;
+  max-width: 900px;
+  display: flex;
+  text-align: center;
+}
+
+.author {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #666;
+}
